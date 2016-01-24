@@ -1,0 +1,26 @@
+{
+  "name": "isrecrusiveloop",
+  "version": "1.0.0",
+  "description": "Chack is object has recrusive loop",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/morulus/isrecrusiveloop.git"
+  },
+  "author": "Vladimir Kalmykov <vladimirmorulus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morulus/isrecrusiveloop/issues"
+  },
+  "homepage": "https://github.com/morulus/isrecrusiveloop#readme",
+  "dependencies": {
+    "bitmask": "github:polyvitamins/bitmask",
+    "randomizer": "github:polyvitamins/randomizer"
+  },
+  "devDependencies": {
+    "tap": "^5.1.1"
+  }
+}
