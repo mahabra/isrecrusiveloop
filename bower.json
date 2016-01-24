@@ -1,0 +1,23 @@
+{
+  "name": "isrecrusiveloop",
+  "main": "dist/isrecrusiveloop.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/morulus/isrecrusiveloop",
+  "authors": [
+    "Vladimir Morulus <vladimirmorulus@gmail.com>"
+  ],
+  "description": "Test object for loop nesting",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
