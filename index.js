@@ -44,7 +44,7 @@ var isRecrusiveLoop = function(object, option, xpath, sessionid) {
                             badways.push(([prop]).concat(r[ri]))
                         }
                 	} else if (bit(option).test(ISRECRUSIVELOOP_THROW)) {
-                        throw 'Predicted loop at ['+(([prop]).concat(r).join("]["))+']';
+                        throw 'Endless loop at ['+(([prop]).concat(r).join("]["))+']';
                 	} else {
                         // Is root. Clear all
                         if (xpath.length===1) clearOff(object, sessionid);
